@@ -1,0 +1,15 @@
+extends layout
+
+- title = typeof(title) != 'undefined' ? title : { }
+
+block title
+  title #{title}
+block script
+  script(src="/js/views/integration.js")
+block navi
+  h2 please click a button to create a connetion
+  button#mikecrm.ctr mikecrm
+  button#github.ctr github
+
+block message
+  pre#json

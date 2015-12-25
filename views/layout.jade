@@ -1,0 +1,17 @@
+html
+  head
+    link(rel='stylesheet', href='/css/style.css')
+    script(src="/vendor/jquery-1.11.3.min.js")
+    script(src="/vendor/socket.io-1.2.0.js")
+    block title
+    block script
+  body
+    block main
+      .main
+        .navi
+          block navi
+        .content
+          .prompt
+            block prompt
+          .message
+            block message
