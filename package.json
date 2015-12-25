@@ -17,6 +17,7 @@
     "favicon": "0.0.2",
     "graceful-logger": "^0.4.3",
     "jade": "^1.11.0",
+    "multer": "^1.1.0",
     "require-dir": "^0.3.0",
     "socket.io": "^1.3.7",
     "sundae": "^0.5.10",
